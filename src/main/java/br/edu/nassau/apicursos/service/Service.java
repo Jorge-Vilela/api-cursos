@@ -1,4 +1,4 @@
 package br.edu.nassau.apicursos;
 
-public class Curos {
+public class service {
 }
