@@ -1,4 +1,7 @@
-package br.edu.nassau.apicursos;
+package br.edu.nassau.apicursos.service;
 
-public class service {
+public class Service {
+
+    //@service
+    //manipula a regra negocio
 }

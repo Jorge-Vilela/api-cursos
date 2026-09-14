@@ -1,4 +1,6 @@
-package br.edu.nassau.apicursos;
+package br.edu.nassau.apicursos.repository;
 
-public class repository {
+public class Repository {
+
+    //manipulação de banco
 }
