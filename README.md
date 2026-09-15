@@ -42,5 +42,8 @@ Já estão organizados
 ATIVIDADE 11 — Repository em memória
 ATIVIDADE 12 — Regras no Service
 ATIVIDADE 13 — Banco e configuração da conexão
-Estão feitas
+ATIVIDADE 14 — Entity e JpaRepository
+Estão feitas E COMMITADAS NO GIT
 
+ATIVIDADE 15 — Comprovação da persistência
+https://drive.google.com/drive/folders/1WMsAqPx3AW3dyxUE8WFedgKKUOAXlU9B?hl=pt-br
