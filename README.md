@@ -20,9 +20,8 @@ PUT /cursos/{id} Atualizar um curso
 DELETE /cursos/{id} Remover um curso
 
 ATIVIDADE 04 — Projeto no Spring Initializr
-
-
 ATIVIDADE 05 — Estrutura e configuração do projeto
+Feitas no código
 
 o pom.xml é tipo uma lista de materiais e o MAVEN cuida para obter.
 src/main/java é onde fica o código em JAVA
@@ -32,7 +31,7 @@ application.properties- é onde fica as configurações da aplicação
 ATIVIDADE 06 — Beans e injeção de dependência
 ATIVIDADE 07 — Model e conversão JSON
 ATIVIDADE 08 — CRUD em memória
-ESSAS 3 EU COMMITEI JÁ
+ESSAS 3 EU JÁ COMMITEI 
 
 ATIVIDADE 09 — Testes HTTP
 https://drive.google.com/file/d/1gI-5rGrQcmZptLx5v-OSE9WoRBG3PCuA/view?usp=sharing
@@ -41,3 +40,7 @@ ATIVIDADE 10 — Organização dos pacotes
 Já estão organizados 
 
 ATIVIDADE 11 — Repository em memória
+ATIVIDADE 12 — Regras no Service
+ATIVIDADE 13 — Banco e configuração da conexão
+Estão feitas
+
