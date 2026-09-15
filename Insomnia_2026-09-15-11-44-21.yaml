@@ -1,0 +1,50 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Projeto SpringBoot
+meta:
+  id: wrk_3488368e9a2240d7b96b1b66baefaff0
+  created: 1789434726268
+  modified: 1789483441041
+  description: ""
+collection:
+  - url: http://localhost:8080/cursos
+    name: New Request
+    meta:
+      id: req_e4257e58b4b54188b2909e8765051ada
+      created: 1789482390099
+      modified: 1789482930402
+      isPrivate: false
+      description: ""
+      sortKey: -1789482390099
+    method: GET
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        "nome": "Spring Boot",
+        "cargaHoraria": 60
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_819380a4ea1ec7729d217ada6f01359923b3ecda
+    created: 1789434726271
+    modified: 1789434726271
+environments:
+  name: Base Environment
+  meta:
+    id: env_819380a4ea1ec7729d217ada6f01359923b3ecda
+    created: 1789434726269
+    modified: 1789434726269
+    isPrivate: false
