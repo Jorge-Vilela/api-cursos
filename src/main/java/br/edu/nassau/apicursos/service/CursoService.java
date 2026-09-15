@@ -27,25 +27,31 @@ public class CursoService {
     }
 
     public Curso cadastrar(Curso curso){
-        return repository.cadastrar(curso);
+        validarRegras(curso);
+        return repository.save(curso);
     }
     public List<Curso> listar(){
-        return repository.listar();
+        return repository.findAll();
     }
     public Curso buscarPorId(Long id){
-        return repository.buscarPorId(id);
+        return repository.findById(id).orElse(null);
     }
     public Curso atualizar(Long id, Curso curso){
-        Curso cursoAtual = repository.buscarPorId(id);
+        Curso cursoAtual = buscarPorId(id);
 
         if (cursoAtual != null) {
             cursoAtual.setNome(curso.getNome());
             cursoAtual.setCargaHoraria(curso.getCargaHoraria());
+            return repository.save(cursoAtual);
         }
-        return cursoAtual;
+        return null;
     }
     public boolean remover(Long id){
-        return repository.remover(id);
+        if (buscarPorId(id) != null) {
+            repository.deleteById(id);
+            return true;
+        }
+            return false;
     }
 
 
